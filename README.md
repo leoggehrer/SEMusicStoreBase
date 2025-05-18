@@ -20,7 +20,7 @@ Die Umsetzung basiert auf dem Konzept der [SEArchitecture](https://github.com/le
 
 | Thema/Ausbaustufe | Beschreibung        | Projekt      | Anleitung |
 |-------------------|---------------------|--------------|-----------|
-| Datenstruktur     | Definieren die Datenstruktur und das Importieren von csv-Daten.| SEMusicStoreBase | Eine Anleitung für die Erstellung einer Datenstruktur finden Sie [hier](https://github.com/leoggehrer/SEBookStore) |
+| Datenstruktur     | Definieren die Datenstruktur und das Importieren von csv-Daten.| [SEMusicStoreBase](https://github.com/leoggehrer/SEMusicStoreBase) | Eine Anleitung für die Erstellung einer Datenstruktur finden Sie [hier](https://github.com/leoggehrer/SEBookStore) |
 | Angular           | Erstellen von **Angular**-Formularen für die Entitäten **Genre**, **Artist**, **Album** und **Tracks**. | SEMusicStoreAngular | In diesem Dokument. |
 | Angular-Statistik | Erstellen von **View** und Anzeigen in Tabellen. | SEMusicStoreAngularStatistics | In diesem Dokument. |
 | Angular-Authentifizierung | Erstellen von **Zugriffrollen**für die Entitäten **Genre**, **Artist**, **Album** und **Tracks**.  | SEMusicStoreAngularAuth | In Berbeitung. |
@@ -79,14 +79,6 @@ Die Anzeige der einzelnen Kennzahlen erfolgt in einer Tabelle. Die Tabelle wird 
 | *Genre und Songs*      | Geben Sie das Genre (**Name**) und die Anzahl der Titeln aus. |
 | *Genre und Statistik*  | Gesamte Songzeit [Sekunden] eines Genre und die durchschnittliche Songzeit [Sekunden] aller Genres aus. |
 
-> **HINWEIS**: Verwenden Sie für die Berechnung der Kennzahlen **View** auf der Datenbank.
+> **HINWEIS**: Erstellen Sie für die Berechnungen die entsprechenden **Views** auf der Datenbank.
 
-## Umsetzung
-
-Erstellen Sie die datenstruktur und den Import
-
-## Testen des Systems
-
-Überprüfen Sie die Kennzahlen mit Excel!
-
-> **Viel Erfolg!**
+> **Viel Erfolg beim Umsetzen!**
