@@ -1,0 +1,86 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{537B4C71-AD33-46C1-8F1F-9E12EF6CBFA8}") = "SEMusicStoreBase.Logic", "SEMusicStoreBase.Logic\SEMusicStoreBase.Logic.csproj", "{B9071805-DAFE-442C-9F34-E4DD315E1D8F}"
+EndProject
+Project("{3D8BA8D8-A638-45CA-AD8E-5E60401CCA5B}") = "SEMusicStoreBase.ConApp", "SEMusicStoreBase.ConApp\SEMusicStoreBase.ConApp.csproj", "{9CD3496A-889C-4991-9274-8AEF097556E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}")="SolutionItems","SolutionItems","{A288F100-2A15-4E8F-B686-8ACD1EB87D9D}"
+	ProjectSection(SolutionItems)=preProject
+		CodeGeneration.csv=CodeGeneration.csv
+		README.md=README.md
+		sampleItemEdit.html=sampleItemEdit.html
+		sampleItemEdit.ts=sampleItemEdit.ts
+		sampleItemEntityList.html=sampleItemEntityList.html
+		sampleItemEntityList.ts=sampleItemEntityList.ts
+		sampleItemViewList.html=sampleItemViewList.html
+		sampleItemViewList.ts=sampleItemViewList.ts
+	EndProjectSection
+EndProject
+Project("{83209F53-AFA1-4ACC-909C-318C040375EA}") = "SEMusicStoreBase.WebApi", "SEMusicStoreBase.WebApi\SEMusicStoreBase.WebApi.csproj", "{BF70F327-1664-4BD7-AF5B-DAB306FFC3A6}"
+EndProject
+Project("{1B2ADF4F-369E-456D-8D9D-C29B0AC3DB5D}") = "SEMusicStoreBase.Common", "SEMusicStoreBase.Common\SEMusicStoreBase.Common.csproj", "{D622D224-3200-4BFE-9757-9126B15EA861}"
+EndProject
+Project("{97448553-F5F2-4BD6-B5E0-734050358551}") = "TemplateTools.ConApp", "TemplateTools.ConApp\TemplateTools.ConApp.csproj", "{49C667A7-CBFD-4B5F-9EB4-942CF5EB0E05}"
+EndProject
+Project("{EF6852C5-D2E5-4397-A80E-A15C90B3076F}") = "TemplateTools.Logic", "TemplateTools.Logic\TemplateTools.Logic.csproj", "{D665E4F6-446C-45C5-A4E5-B0E7CDBEE7DB}"
+EndProject
+Project("{0B1A0C46-171B-47B7-B678-EC65A6212598}") = "SEMusicStoreBase.CodeGenApp", "SEMusicStoreBase.CodeGenApp\SEMusicStoreBase.CodeGenApp.csproj", "{0D967C58-C9F9-4EBB-A958-F01E42C32A54}"
+EndProject
+Project("{8CFE7EEF-598F-4123-9775-F5BB24E530C0}") = "SEMusicStoreBase.MVVMApp", "SEMusicStoreBase.MVVMApp\SEMusicStoreBase.MVVMApp.csproj", "{787A7471-C70C-4EFB-976F-4FEFAA98E597}"
+EndProject
+Project("{7090D0F1-919B-4E93-AD1F-A93669D25B58}") = "SEMusicStoreBase.AngularApp", "SEMusicStoreBase.AngularApp\SEMusicStoreBase.AngularApp.esproj", "{809F8060-D733-E671-6EBC-62B3811C798E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9071805-DAFE-442C-9F34-E4DD315E1D8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9071805-DAFE-442C-9F34-E4DD315E1D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9071805-DAFE-442C-9F34-E4DD315E1D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9071805-DAFE-442C-9F34-E4DD315E1D8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CD3496A-889C-4991-9274-8AEF097556E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CD3496A-889C-4991-9274-8AEF097556E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CD3496A-889C-4991-9274-8AEF097556E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CD3496A-889C-4991-9274-8AEF097556E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF70F327-1664-4BD7-AF5B-DAB306FFC3A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF70F327-1664-4BD7-AF5B-DAB306FFC3A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF70F327-1664-4BD7-AF5B-DAB306FFC3A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF70F327-1664-4BD7-AF5B-DAB306FFC3A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D622D224-3200-4BFE-9757-9126B15EA861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D622D224-3200-4BFE-9757-9126B15EA861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D622D224-3200-4BFE-9757-9126B15EA861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D622D224-3200-4BFE-9757-9126B15EA861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C667A7-CBFD-4B5F-9EB4-942CF5EB0E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C667A7-CBFD-4B5F-9EB4-942CF5EB0E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C667A7-CBFD-4B5F-9EB4-942CF5EB0E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C667A7-CBFD-4B5F-9EB4-942CF5EB0E05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D665E4F6-446C-45C5-A4E5-B0E7CDBEE7DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D665E4F6-446C-45C5-A4E5-B0E7CDBEE7DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D665E4F6-446C-45C5-A4E5-B0E7CDBEE7DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D665E4F6-446C-45C5-A4E5-B0E7CDBEE7DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D967C58-C9F9-4EBB-A958-F01E42C32A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D967C58-C9F9-4EBB-A958-F01E42C32A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D967C58-C9F9-4EBB-A958-F01E42C32A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D967C58-C9F9-4EBB-A958-F01E42C32A54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{787A7471-C70C-4EFB-976F-4FEFAA98E597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787A7471-C70C-4EFB-976F-4FEFAA98E597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787A7471-C70C-4EFB-976F-4FEFAA98E597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787A7471-C70C-4EFB-976F-4FEFAA98E597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{809F8060-D733-E671-6EBC-62B3811C798E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{809F8060-D733-E671-6EBC-62B3811C798E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{809F8060-D733-E671-6EBC-62B3811C798E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{809F8060-D733-E671-6EBC-62B3811C798E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{809F8060-D733-E671-6EBC-62B3811C798E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{809F8060-D733-E671-6EBC-62B3811C798E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBE26416-294F-4F3C-87B6-62FEA8DE4C3B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+﻿UnitType;ItemType;ItemName;SettingName;SettingValue
+
+###############################################################
+# General configurations                                      #
+###############################################################
+General;Property;All;Generate;True
+
+###############################################################
+# Project configurations                                      #
+###############################################################
+SEMusicStoreBase.Logic;Property;All;Generate;True

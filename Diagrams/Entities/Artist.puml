@@ -1,0 +1,44 @@
+﻿//@GeneratedCode
+@startuml SEMusicStoreBase.Logic.Entities.Artist
++class Artist #whitesmoke {
+    - String _name
+    - List<Album> _albums
+    ---
+     + String getName()
+     + setName(String value)
+     + List<Album> getAlbums()
+     + setAlbums(List<Album> value)
+    ---
+    + String get_Name()
+    + Void set_Name(String value)
+    + List<Album> get_Albums()
+    + Void set_Albums(List`1 value)
+    + String ToString()
+}
++abstract class VersionEntityObject #white {
+}
++abstract class EntityObject #white {
+    - Int32 _id
+    ---
+     + Int32 getId()
+     + setId(Int32 value)
+    ---
+    + Int32 get_Id()
+    + Void set_Id(Int32 value)
+}
++abstract class DbObject #white {
+}
+interface IIdentifiable #lightgrey {
+     + Int32 getId()
+     + setId(Int32 value)
+    ---
+    + Int32 get_Id()
+    + Void set_Id(Int32 value)
+    + Void CopyProperties(IIdentifiable other)
+}
+VersionEntityObject <|-- Artist
+EntityObject <|-- VersionEntityObject
+DbObject <|-- EntityObject
+IIdentifiable ()- EntityObject
+Artist "*" o-- "0..1" Album
+@enduml
