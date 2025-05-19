@@ -204,7 +204,7 @@ Im nächsten Schritt öffnen Sie nun die Projektmappe `SEMusicStoreBase` mit der
   |- TemplateTools.Logic
    |- ...
   |- README.md
-  |- SETemplate.sln
+  |- SEMusicStoreBase.sln
 ```
 
 ---
